@@ -1,0 +1,8 @@
+{
+	"path": "https://raw.githubusercontent.com/CynthiaWebsiteEngine/Mini/refs/heads/main/docs/themes.md",
+	"title": "10.X - Themes (Not yet put in the documentation)",
+	"description": "List of all themes. Pulled from <https://github.com/CynthiaWebsiteEngine/Mini/blob/main/docs/themes.md>",
+	"layout": "theme",
+	"permalink": "/theme-list",
+	"data": { "type": "page_data", "in_menus": [1] }
+}

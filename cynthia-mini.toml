@@ -1,0 +1,26 @@
+[global]
+  # Theme to use for light mode - default themes: autumn, default
+  theme = "documentation-light"
+  # Theme to use for dark mode - default themes: night, default-dark
+  theme_dark = "documentation-dark"
+  # Primary color for accents and highlights
+  colour = "#FFFFFF"
+  # Your website's name, displayed in various places
+  site_name = "Cynthia Mini Documentation"
+  # A brief description of your website
+  site_description = "Documentation for usage, or contribution to Cynthia Mini"
+
+  [server]
+  # Port number for the web server
+  port = 3000
+  # Host address for the web server
+  host = "localhost"
+
+  [posts]
+  # Enable comments on posts using utteranc.es
+  # Format: "username/repositoryname"
+  #
+  # You will need to give the utterances bot access to your repo.
+  # See https://github.com/apps/utterances to add the utterances bot to your repo
+  comment_repo = "CynthiaWebsiteEngine/Mini-docs"
+  
