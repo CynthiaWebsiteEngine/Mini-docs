@@ -1,7 +1,7 @@
 {
-	"title": "1 - Start",
-	"description": "Documentation starts from here!",
-	"layout": "theme",
-	"permalink": "/",
-	"data": { "type": "page_data", "in_menus": [1] }
+  "title": "1 - Start",
+  "description": "Documentation starts from here!",
+  "layout": "theme",
+  "permalink": "/",
+  "data": { "type": "page_data", "in_menus": [1] }
 }
