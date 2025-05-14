@@ -41,6 +41,11 @@ jobs:
       - name: Fetch dependencies
         run: |
           bun install -g @cynthiaweb/cynthiaweb-mini@1.0.3-pre
+        # Fetch the scripts people use to install cynthiaweb-mini binaries
+      - name: Fetch installer scripts to assets
+        run: |
+          curl -o ./assets/install.sh https://raw.githubusercontent.com/CynthiaWebsiteEngine/Mini/refs/heads/main/bininstallers/posix.sh
+          curl -o ./assets/install.ps1 https://raw.githubusercontent.com/CynthiaWebsiteEngine/Mini/refs/heads/main/bininstallers/windows.ps1
       # Let Cynthia Mini build the site
       - name: Pregenerate
         run: cynthiaweb-mini pregenerate

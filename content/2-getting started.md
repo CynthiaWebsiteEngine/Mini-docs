@@ -1,0 +1,1 @@
+- [Installing Cynthia Mini](/install)
