@@ -4,7 +4,8 @@ Welcome! To the documentation of Cynthia Website Engine Mini, Cynthia Mini or ju
 
 Well... There _will_ be a documentation here. Later. Work-in-progress!
 
-## Go to...
+## Go to
 
+- [The blog](/!/)
 - [2 - Getting started](/getting-started)
-  - [2.1 - Initialisation](/initialisation)
+  - [2.1 - Installing Cynthia Mini](/install)
