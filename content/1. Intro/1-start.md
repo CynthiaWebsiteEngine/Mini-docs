@@ -6,6 +6,6 @@ Well... There _will_ be a documentation here. Later. Work-in-progress!
 
 ## Go to
 
-- [The blog](/!/)
+- [The blog](#!/)
 - [2 - Getting started](/getting-started)
   - [2.1 - Installing Cynthia Mini](/install)
