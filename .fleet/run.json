@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "command",
+      "name": "Run Cynthia Mini preview",
+      "program": "cynthiaweb-mini",
+      "args": ["preview"]
+    }
+  ]
+}
