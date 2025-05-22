@@ -1,0 +1,15 @@
+{
+  "title": "Going back to simple",
+  "description": "The start of Cynthia Mini",
+  "layout": "theme",
+  "permalink": "/blog/the-start",
+  "data": {
+    "type": "post_data",
+    "date_published": "13/05/2025",
+    "date_updated": "22/05/2025",
+    "category": "Journey",
+    "tags": [
+      "Author: MLC Bloeiman (@strawmelonjuice)"
+    ]
+  }
+}
