@@ -1,8 +1,8 @@
 {
-  "title": "2 - <b>Getting Started</b>",
+  "title": "3 - <b>Costumisation</b>",
   "description": "",
   "layout": "theme",
-  "permalink": "/getting-started",
+  "permalink": "/customization",
   "data": {
     "type": "page_data",
     "in_menus": [

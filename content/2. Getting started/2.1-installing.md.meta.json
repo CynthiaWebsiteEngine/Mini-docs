@@ -1,7 +1,12 @@
 {
-  "title": "2.1 - Installing Cynthia Mini",
+  "title": "&emsp;2.1 - Installing Cynthia Mini",
   "description": "",
   "layout": "theme",
   "permalink": "/install",
-  "data": { "type": "page_data", "in_menus": [1] }
+  "data": {
+    "type": "page_data",
+    "in_menus": [
+      1
+    ]
+  }
 }

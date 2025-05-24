@@ -1,7 +1,12 @@
 {
-  "title": "3.2 - List of themes",
+  "title": "&emsp;3.2 - List of themes",
   "description": "List of all themes available for Cynthia Mini.",
   "layout": "theme",
   "permalink": "/theme-list",
-  "data": { "type": "page_data", "in_menus": [1] }
+  "data": {
+    "type": "page_data",
+    "in_menus": [
+      1
+    ]
+  }
 }

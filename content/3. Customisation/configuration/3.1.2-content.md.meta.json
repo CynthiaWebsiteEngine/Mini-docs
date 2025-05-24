@@ -1,10 +1,12 @@
 {
-  "title": "3.1.2 - Configuration: Managing Content",
+  "title": "&emsp;&emsp;3.1.2 - Configuration: Managing Content",
   "description": "Controlling content on your site",
   "layout": "default",
   "permalink": "/configuration/content",
   "data": {
     "type": "page_data",
-    "in_menus": [1]
+    "in_menus": [
+      1
+    ]
   }
 }

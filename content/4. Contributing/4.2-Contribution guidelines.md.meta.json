@@ -1,8 +1,13 @@
 {
   "path": "https://raw.githubusercontent.com/CynthiaWebsiteEngine/Mini/refs/heads/main/CONTRIBUTING.md",
-  "title": "4.2 - Contributing guidelines",
+  "title": "&emsp;4.2 - Contributing guidelines",
   "description": "If you want to contribute to Cynthia Mini, reading these guidelines is a good start.",
   "layout": "theme",
   "permalink": "/contribution-guidelines",
-  "data": { "type": "page_data", "in_menus": [1] }
+  "data": {
+    "type": "page_data",
+    "in_menus": [
+      1
+    ]
+  }
 }

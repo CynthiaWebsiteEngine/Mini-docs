@@ -1,10 +1,12 @@
 {
-  "title": "3.1.1 - Configuration: The configuration file",
+  "title": "&emsp;&emsp;3.1.1 - Configuration: The configuration file",
   "description": "Learn about the `cynthia-mini.toml` file structure",
   "layout": "default",
   "permalink": "/configuration/the-configuration-file",
   "data": {
     "type": "page_data",
-    "in_menus": [1]
+    "in_menus": [
+      1
+    ]
   }
 }
