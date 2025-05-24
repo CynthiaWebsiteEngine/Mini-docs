@@ -1,7 +1,10 @@
 {
-  "title": "2 - Getting Started",
+  "title": "2 - <b>Getting Started</b>",
   "description": "",
   "layout": "theme",
   "permalink": "/getting-started",
-  "data": { "type": "page_data", "in_menus": [1] }
+  "data": {
+    "type": "page_data",
+    "in_menus": [1]
+  }
 }

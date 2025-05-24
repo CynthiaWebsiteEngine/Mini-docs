@@ -1,0 +1,10 @@
+{
+  "title": "&emsp;4.3 - Adding themes to Cynthia Mini",
+  "description": "How to add themes to Cynthia Mini.",
+  "layout": "theme",
+  "permalink": "/adding-themes",
+  "data": {
+    "type": "page_data",
+    "in_menus": [1]
+  }
+}
