@@ -5,8 +5,6 @@
   "permalink": "/",
   "data": {
     "type": "page_data",
-    "in_menus": [
-      1
-    ]
+    "in_menus": [1]
   }
 }
