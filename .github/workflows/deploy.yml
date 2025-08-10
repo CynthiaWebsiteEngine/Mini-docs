@@ -51,6 +51,7 @@ jobs:
       - name: Fetch Cynthia
         run: |
           bun install -g @cynthiaweb/cynthiaweb-mini@v1.1.7-test
+          export PATH="/home/runner/.bun/bin:$PATH"
         # Fetch the scripts people use to install cynthiaweb-mini binaries
       - name: Fetch installer scripts to assets
         run: |
