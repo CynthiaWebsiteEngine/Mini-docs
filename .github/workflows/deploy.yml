@@ -37,10 +37,10 @@ jobs:
         # Install Bun, the runtime that powers cynthiaweb-mini
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
-        # Install the cynthiaweb-mini package version v1.1.6
+        # Install the cynthiaweb-mini package version v1.1.7-test
       - name: Fetch dependencies
         run: |
-          bun install -g @cynthiaweb/cynthiaweb-mini@v1.1.6
+          bun install -g @cynthiaweb/cynthiaweb-mini@v1.1.7-test
         # Fetch the scripts people use to install cynthiaweb-mini binaries
       - name: Fetch installer scripts to assets
         run: |
