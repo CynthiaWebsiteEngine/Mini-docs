@@ -35,10 +35,20 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
         # Install Bun, the runtime that powers cynthiaweb-mini
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Setup dependencies
+        uses: jdx/mise-action@v2
+        with:
+          install: true # [default: true] run `mise install`
+          cache: true # [default: true] cache mise using GitHub's cache
+          experimental: true # [default: false] enable experimental features
+          # automatically write this mise.toml file
+          mise_toml: |
+            [tools]
+            bun = "latest"
+            pandoc = "latest"
+
         # Install the cynthiaweb-mini package version v1.1.7-test
-      - name: Fetch dependencies
+      - name: Fetch Cynthia
         run: |
           bun install -g @cynthiaweb/cynthiaweb-mini@v1.1.7-test
         # Fetch the scripts people use to install cynthiaweb-mini binaries
@@ -47,7 +57,7 @@ jobs:
           curl -o ./assets/install.sh https://raw.githubusercontent.com/CynthiaWebsiteEngine/Mini/refs/heads/main/bininstallers/posix.sh
           curl -o ./assets/install.ps1 https://raw.githubusercontent.com/CynthiaWebsiteEngine/Mini/refs/heads/main/bininstallers/windows.ps1
       # Let Cynthia Mini build the site
-      - name: Pregenerate
+      - name: Cynthia \> Pregenerate
         run: cynthiaweb-mini pregenerate
       # Upload the generated site to the GitHub Pages artifact store
       - name: Upload artifact
