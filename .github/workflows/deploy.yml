@@ -47,10 +47,10 @@ jobs:
             bun = "latest"
             pandoc = "latest"
 
-        # Install the cynthiaweb-mini package version v1.1.7-test
+        # Install the cynthiaweb-mini package version v1.1.7-rc.2
       - name: Fetch Cynthia
         run: |
-          bun install -g @cynthiaweb/cynthiaweb-mini@v1.1.7-test
+          bun install -g @cynthiaweb/cynthiaweb-mini@v1.1.7-rc.2
         # Fetch the scripts people use to install cynthiaweb-mini binaries
       - name: Fetch installer scripts to assets
         run: |
