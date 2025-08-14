@@ -1,6 +1,6 @@
 {
   "title": "&emsp;1.2 - Blog",
-  "description": "this page is not actually shown, due to the ! prefix in the permalink",
+  "description": "",
   "layout": "default",
   "permalink": "!/",
   "data": {
