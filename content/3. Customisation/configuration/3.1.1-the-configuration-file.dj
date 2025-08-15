@@ -1,3 +1,4 @@
 # The Configuration File
 
-Configuration in Cynthia Mini is handled through the `cynthia-mini.toml` file. This file contains all the settings for your website.
+Configuration in Cynthia Mini is handled through the `cynthia-mini.toml`
+file. This file contains all the settings for your website.

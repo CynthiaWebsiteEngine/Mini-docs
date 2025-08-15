@@ -1,16 +1,20 @@
 ### Theme Contribution Guide
 
-This guide outlines the process of contributing a new theme to the Cynthia Mini ecosystem. If you intend to utilise an existing layout, you may proceed directly to the theme configuration step.
+This guide outlines the process of contributing a new theme to the
+Cynthia Mini ecosystem. If you intend to utilise an existing layout, you
+may proceed directly to the theme configuration step.
 
 #### 1. Repository Preparation
 
-Begin by creating a [fork](https://github.com/CynthiaWebsiteEngine/Mini/fork) of the official repository.
+Begin by creating a
+[fork](https://github.com/CynthiaWebsiteEngine/Mini/fork) of the
+official repository.
 
 #### 2. Theme Configuration
 
 Add your theme definition to the `themes.json` configuration file:
 
-```json
+``` json
 {
   "name": "your-theme-name",
   "prevalence": "dark",
@@ -23,9 +27,12 @@ Add your theme definition to the `themes.json` configuration file:
 }
 ```
 
-For generating your own colour scheme instead of a daisyUI premixed colour scheme name, consider using <https://v4.daisyui.com/theme-generator/>. You can just replace the theme name with the colours object:
+For generating your own colour scheme instead of a daisyUI premixed
+colour scheme name, consider using
+<https://v4.daisyui.com/theme-generator/>. You can just replace the
+theme name with the colours object:
 
-```json
+``` json
 {
   "name": "mythemename",
   "prevalence": "dark",
@@ -50,44 +57,58 @@ For generating your own colour scheme instead of a daisyUI premixed colour schem
 }
 ```
 
-Please note that colour scheme names need to be unique, and that when you've defined a colour scheme like above, it can be referred to by name with other layouts.
+Please note that colour scheme names need to be unique, and that when
+you've defined a colour scheme like above, it can be referred to by name
+with other layouts.
 
 #### 3. Layout Implementation
 
-Begin by creating a new layout module. We recommend duplicating and renaming the `cindy_simple.gleam` file located at:
+Begin by creating a new layout module. We recommend duplicating and
+renaming the `cindy_simple.gleam` file located at:
 
-```gleam
+``` gleam
 cynthia_websites_mini_client/src/cynthia_websites_mini_client/pottery/molds/
 ```
 
 This provides you with the cindy-simple template as a foundation.
 
-Subsequently, establish references to your newly created layout by modifying:
+Subsequently, establish references to your newly created layout by
+modifying:
 
-```gleam
+``` gleam
 cynthia_websites_mini_client/src/cynthia_websites_mini_client/pottery/molds.gleam
 ```
 
-Bind the `into()` function to your layout. The file contains detailed comments explaining the proper procedure for adding layout references.
+Bind the `into()` function to your layout. The file contains detailed
+comments explaining the proper procedure for adding layout references.
 
-You may then proceed to customise your layout module. The robust Gleam type system and Lustre's intuitive nature facilitate both template-based and programmatic approaches to layout development.
+You may then proceed to customise your layout module. The robust Gleam
+type system and Lustre's intuitive nature facilitate both template-based
+and programmatic approaches to layout development.
 
-Note: CynthiaMini utilises [DaisyUI v4](https://v4.daisyui.com/components/) for its styling framework, which extends to layout styling capabilities.
+Note: CynthiaMini utilises [DaisyUI
+v4](https://v4.daisyui.com/components/) for its styling framework, which
+extends to layout styling capabilities.
 
 #### 4. Submission Process
 
-Submit your contribution through a Pull Request (PR). For guidance on creating a PR, please refer to the [GitHub documentation on Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+Submit your contribution through a Pull Request (PR). For guidance on
+creating a PR, please refer to the [GitHub documentation on Pull
+Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
 Prior to submission, ensure all tests pass by executing:
 
-```bash
+``` bash
 bun run test
 ```
 
-Upon submission, your PR will undergo review. Should you require assistance or have queries, please:
+Upon submission, your PR will undergo review. Should you require
+assistance or have queries, please:
 
-- Create an [issue](https://github.com/CynthiaWebsiteEngine/Mini/issues/new/)
+- Create an
+  [issue](https://github.com/CynthiaWebsiteEngine/Mini/issues/new/)
 - Contact the maintainer at <mar@strawmelonjuice.com>
 - Include your questions within the PR discussion
 
-We welcome questions and are committed to supporting contributors throughout the process.
+We welcome questions and are committed to supporting contributors
+throughout the process.

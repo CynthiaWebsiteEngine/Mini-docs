@@ -4,32 +4,42 @@ There are two officially supported methods of installing Cynthia Mini.
 
 ### With Bun (recommended method)
 
-If you have [Bun](https://bun.sh/) installed, you can install Cynthia Mini by just running:
+If you have [Bun](https://bun.sh/) installed, you can install Cynthia
+Mini by just running:
 
-```sh
+``` sh
 bun install -g @cynthiaweb/cynthiaweb-mini@latest
 ```
 
-This installs latest release from NPM. Note that every release is labelled latest, including pre-releases, so replace `latest` with the version you want.
+This installs latest release from NPM. Note that every release is
+labelled latest, including pre-releases, so replace `latest` with the
+version you want.
 
 ### With binary installer script
 
-If you prefer not to use Bun, or can't use it to install, you can also use these binary install scripts:
+If you prefer not to use Bun, or can't use it to install, you can also
+use these binary install scripts:
 
-This removes the need for Bun, but the cynthiaweb-mini CLI will be quite a big bigger in file size.
+This removes the need for Bun, but the cynthiaweb-mini CLI will be quite
+a big bigger in file size.
 
-These scripts will download and install [the binaries released from GitHub releases](https://github.com/CynthiaWebsiteEngine/Mini/releases)
-and install them to `"$HOME/.local/bin/mini"` (Linux) or `"$HOME\bin\mini"` (Windows).
-It will by default pick latest release, skipping any pre-releases.
+These scripts will download and install [the binaries released from
+GitHub releases](https://github.com/CynthiaWebsiteEngine/Mini/releases)
+and install them to `"$HOME/.local/bin/mini"` (Linux) or
+`"$HOME\bin\mini"` (Windows). It will by default pick latest release,
+skipping any pre-releases.
 
-To change this default behaviour you can set the following environment variables:
+To change this default behaviour you can set the following environment
+variables:
 
-- `CYNTHIAWEB_MINI_INSTALL_DIR`: Changes directory for Cynthia Mini to be installed to
-- `CYNTHIAWEB_MINI_RELEASE`: Changes release to be installed, useful if you want to install a pre-release or older version.
+- `CYNTHIAWEB_MINI_INSTALL_DIR`: Changes directory for Cynthia Mini to
+  be installed to
+- `CYNTHIAWEB_MINI_RELEASE`: Changes release to be installed, useful if
+  you want to install a pre-release or older version.
 
 #### For Linux and MacOS
 
-```bash
+``` bash
 # installs latest stable release from GitHub.
 curl -fsSL https://cynthiawebsiteengine.github.io/Mini-docs/assets/install.sh | bash
 # Downloaded file size is approximately between 50m and 85m
@@ -37,7 +47,7 @@ curl -fsSL https://cynthiawebsiteengine.github.io/Mini-docs/assets/install.sh | 
 
 #### For Windows
 
-```powershell
+``` powershell
 # installs latest stable release from GitHub.
 powershell -c "irm https://cynthiawebsiteengine.github.io/Mini-docs/assets/install.ps1 | iex"
 # Downloaded file size is approximately between 100m
