@@ -55,8 +55,10 @@ powershell -c "irm https://cynthiawebsiteengine.github.io/Mini-docs/assets/insta
 
 ### Pandoc
 
-If you have or want to have markdown files amongst your content, Cynthia Mini will use Pandoc to convert them to Djot on the fly.
+If you have or want to have markdown files amongst your content, Cynthia
+Mini will use Pandoc to convert them to Djot on the fly.
 
 You'll need to install Pandoc to be able to run Cynthia Mini.
 
-See [Pandoc's installation guide](https://pandoc.org/installing.html) for how to.
+See [Pandoc's installation guide](https://pandoc.org/installing.html)
+for how to.
