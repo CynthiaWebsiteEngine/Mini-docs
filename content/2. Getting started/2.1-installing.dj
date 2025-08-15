@@ -2,7 +2,7 @@
 
 There are two officially supported methods of installing Cynthia Mini.
 
-### With Bun (recommended method)
+#### With Bun (recommended method)
 
 If you have [Bun](https://bun.sh/) installed, you can install Cynthia
 Mini by just running:
@@ -15,7 +15,7 @@ This installs latest release from NPM. Note that every release is
 labelled latest, including pre-releases, so replace `latest` with the
 version you want.
 
-### With binary installer script
+#### With binary installer script
 
 If you prefer not to use Bun, or can't use it to install, you can also
 use these binary install scripts:
@@ -37,7 +37,7 @@ variables:
 - `CYNTHIAWEB_MINI_RELEASE`: Changes release to be installed, useful if
   you want to install a pre-release or older version.
 
-#### For Linux and MacOS
+##### For Linux and MacOS
 
 ``` bash
 # installs latest stable release from GitHub.
@@ -45,10 +45,18 @@ curl -fsSL https://cynthiawebsiteengine.github.io/Mini-docs/assets/install.sh | 
 # Downloaded file size is approximately between 50m and 85m
 ```
 
-#### For Windows
+##### For Windows
 
 ``` powershell
 # installs latest stable release from GitHub.
 powershell -c "irm https://cynthiawebsiteengine.github.io/Mini-docs/assets/install.ps1 | iex"
 # Downloaded file size is approximately between 100m
 ```
+
+### Pandoc
+
+If you have or want to have markdown files amongst your content, Cynthia Mini will use Pandoc to convert them to Djot on the fly.
+
+You'll need to install Pandoc to be able to run Cynthia Mini.
+
+See [Pandoc's installation guide](https://pandoc.org/installing.html) for how to.
